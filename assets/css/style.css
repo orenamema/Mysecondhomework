@@ -35,3 +35,20 @@ h1 {
 
 body  {
   background-image: url("../images/checkerboard-cross.png");
+}
+/*media query here*/
+@media screen and (max-width:768px) {
+  div{height: 400px;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  #main-content,
+  #sidebar{
+    width: 100%;
+  }
+  #sidebar {
+    margin-top: 40px;
+  }
+}
