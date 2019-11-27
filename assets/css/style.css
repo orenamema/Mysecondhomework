@@ -61,6 +61,11 @@ hr {
   /* height: 700px; */
 }
 
+#orenPic {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
 /* media query here */
 @media screen and (max-width:768px) {
   .card{
