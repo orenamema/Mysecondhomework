@@ -99,6 +99,13 @@ p, label{
   height: 200px;
   padding: 10px;
 }
+
+nycCard, parCard, rioCard, houCard, chiCard {
+  width: 80%;
+  height: 80%;
+}
+
+
 /* media query here */
 @media screen and (max-width:768px) {
   .card{
@@ -140,12 +147,10 @@ p, label{
 
 }
 
-@media screen and (min-height:980px) {
-  #top-container {
-    width: 960px;
-  }
-  .card{
-    width: 960px;
+@media screen and (min-height:500px) {
+
+  #portfolioCard{
+    height: 1000px;
   }
 
 }
