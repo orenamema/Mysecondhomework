@@ -37,7 +37,7 @@ The about page contains a picture and many other items that are formated as requ
 ```html
 <img id="orenPic" src="assets/images/oren-picture.png" class="rounded float-left" alt="orenPic">
 ```
-![alt text](https://github.com/orenamema/Mysecondhomework/raw/master/assets/images/about.png)
+![alt text](https://github.com/orenamema/Mysecondhomework/raw/master/assets/images/about.png){:height="30%" width="30%"}
 
 ### Portfolio 
 On the portfolio page, we use `cards`, `columns` and `rows`
@@ -47,7 +47,7 @@ On the portfolio page, we use `cards`, `columns` and `rows`
         <div id="nycCard" class="card" style="width: 18rem;">
             <img src="assets/images/newyork.jpg" class="card-img-top" alt="...">
 ```
-![alt text](https://github.com/orenamema/Mysecondhomework/raw/master/assets/images/portfolio.png)
+![alt text](https://github.com/orenamema/Mysecondhomework/raw/master/assets/images/portfolio.png){:height="30%" width="30%"}
 
 ### Contact
 The contact page we used `form-group`
@@ -55,4 +55,4 @@ The contact page we used `form-group`
 <div class="form-group">
     <label for="inputName">Name</label>
 ```
-![alt text](https://github.com/orenamema/Mysecondhomework/raw/master/assets/images/contact.png)
+![alt text](https://github.com/orenamema/Mysecondhomework/raw/master/assets/images/contact.png){:height="30%" width="30%"}
