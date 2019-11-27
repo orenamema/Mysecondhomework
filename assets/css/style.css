@@ -39,10 +39,23 @@ body  {
 
 #top-container {
   width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 70px; */
+  background-color: #ffffff;
 }
 
 .btn-group{
   margin-right: 10px;
+  float: right;
+}
+
+
+.card{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;  
+  /* height: 700px; */
 }
 
 /* media query here */
@@ -53,6 +66,10 @@ body  {
   }
   #top-container {
     width: 450px;
+  }
+
+  .btn-group{
+    margin: auto;
   }
   /* .wrapper {
     width: 100%;
@@ -68,6 +85,6 @@ body  {
 }
 
 hr {
-  width="90%" 
+  width:"90%" 
 }
 
